@@ -80,7 +80,7 @@ The results are displayed as per-class AUROC (Area under ROC curve), as well as 
 
 </td><td>
 
-![Confusion Matrix](./plots/cm_best.png "Confusion Matrix")
+![Confusion Matrix](./plots/4cm_best.png "Confusion Matrix")
 
 </td>
 </tr>
