@@ -2,15 +2,16 @@
 
 ## Get the code
 ```
-git clone --recursive https://github.com/arpanmangal/CovidAID.git
+git clone --recursive https://github.com/awasser4/CovidAID_EEE511.git
 ```
 
 ## Requirements
 The main requirements are listed below
 
-- Python 3.6.10
-- PyTorch 0.3.0
-- Torchvision 0.2.0
+- Python 3.7.0
+- PyTorch 1.11.0
+- CUDA 10.2
+- Torchvision 0.12.0
 - Numpy
 - Pillow 6.1
 - Scikit-learn
