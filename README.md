@@ -1,6 +1,8 @@
 # CovidAID for Detection of COVID-19 from X-Ray Images
 
-We present `CovidAID` (Covid AI Detector), a PyTorch (python3) based implementation, to identify COVID-19 cases from X-Ray images. The model takes as input a chest X-Ray image and outputs the probability scores for 4 classes (`NORMAL`, `Bacterial Pneumonia`, `Viral Pneumonia` and `COVID-19`).
+The emergence of the Covid-19 pandemic in 2020 took a toll on almost all individuals across the globe and is continuing to do so even today. With case load reaching as high as one million per day, the issues of test kit and hospital availability were encountered by all. 
+
+This repository contains `CovidAID`, a PyTorch based implementation, to identify COVID-19 cases from X-Ray images. This implementation also performs 3 class and 4 class classifications. The model takes as input a chest X-Ray image and outputs the probability scores for 4 classes (`NORMAL`, `Bacterial Pneumonia`, `Viral Pneumonia` and `COVID-19`).
 
 It is based on [CheXNet](https://stanfordmlgroup.github.io/projects/chexnet/) (and it's reimplementation by [arnoweng](https://github.com/arnoweng/CheXNet)).
 
@@ -28,11 +30,11 @@ Chest X-Ray patient distribution
 
 
 ## Get started
-Please refer our paper [paper](http://arxiv.org/abs/2004.09803) for description of architecture and method. Refer to [GETTING_STARTED.md](./GETTING_STARTED.md) for detailed examples and abstract usage for training the models and running inference.
+The [paper](http://arxiv.org/abs/2004.09803) contains a more detailed explanation the of architecture and method. Refer to [GETTING_STARTED.md](./GETTING_STARTED.md) for detailed examples and abstract usage for training the models and running inference.
 
 ## Results
 
-We present the results in terms of both the per-class AUROC (Area under ROC curve) on the lines of `CheXNet`, as well as confusion matrix formed by treating the most confident class prediction as the final prediction. We obtain a mean AUROC of `0.9738` (4-class configuration).
+The results are displayed as per-class AUROC (Area under ROC curve), as well as confusion matrix formed by treating the most confident class prediction as the final prediction. We obtain an AUROC for Covid detection to be of `0.988` (4-class configuration) and `0.995` (3-class configuration).
 
 <center>
 <table>
@@ -88,8 +90,7 @@ We present the results in terms of both the per-class AUROC (Area under ROC curv
 </center>
 
 ## Visualizations
-To  demonstrate  the  results  qualitatively,  we  generate  saliency  maps  for  our model’s  predictions  using  RISE. The purpose of these visualizations was to have an additional check to rule out  model  over-fitting  as  well  as  to  validate  whether  the  regions  of  attention correspond to the right features from a radiologist’s perspective. Below are some of the saliency maps on COVID-19 positive X-rays.
-
+Using RISE, the saliency  maps were generated for  our model’s  predictions to validate the predictions from the model.
 <center>
 
 <table>
@@ -128,7 +129,7 @@ To  demonstrate  the  results  qualitatively,  we  generate  saliency  maps  for
 
 ## Contributions
 
-This work was collaboratively conducted by Arpan Mangal, Surya Kalia, Harish Rajgopal, Krithika Rangarajan, Vinay Namboodiri, Subhashis Banerjee and Chetan Arora.
+This work was collaboratively done by Tejas Umesh, Andrew Wasserbeck, and Ashwin Kannan. All members contributed equally to this project.
 
 ### Citation
 ```
@@ -142,12 +143,9 @@ This work was collaboratively conducted by Arpan Mangal, Surya Kalia, Harish Raj
 ```
 
 ## Contact
-If you have any question, please file an issue or contact the author:
+If you have any question, please contact any of the team members.
 ```
-Arpan Mangal: mangalarpan@gmail.com
-Surya Kalia: suryackalia@gmail.com
+Tejas Umesh: tumesh@asu.edu 
+Andrew Wasserbeck: awasser4@asu.edu 
+Ashwin Kannan: akanna17@asu.edu 
 ```
-
-## TODO
-- Add support for `torch>=1.0`
-- Support for multi-GPU training
