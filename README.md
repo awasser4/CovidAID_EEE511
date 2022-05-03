@@ -1,4 +1,5 @@
 # CovidAID for Detection of COVID-19 from X-Ray Images
+This Github Repository was forked from the original authors, and changed where deemed necessary for the model to perform correctly. 
 
 The emergence of the Covid-19 pandemic in 2020 took a toll on almost all individuals across the globe and is continuing to do so even today. With case load reaching as high as one million per day, the issues of test kit and hospital availability were encountered by all. 
 
