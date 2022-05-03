@@ -131,17 +131,6 @@ Using RISE, the saliency  maps were generated for  our model’s  predictions to
 
 This work was collaboratively done by Tejas Umesh, Andrew Wasserbeck, and Ashwin Kannan. All members contributed equally to this project.
 
-### Citation
-```
-@article{covidaid,
-    title={CovidAID: COVID-19 Detection Using ChestX-Ray},
-    author={Arpan Mangal and Surya Kalia and Harish Rajgopal and Krithika Rangarajan and Vinay Namboodiri and Subhashis Banerjee and Chetan Arora},
-    year={2020},
-    journal={arXiv 2004.09803},
-    url={https://github.com/arpanmangal/CovidAID}
-}
-```
-
 ## Contact
 If you have any question, please contact any of the team members.
 ```
