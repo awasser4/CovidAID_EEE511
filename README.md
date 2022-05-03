@@ -46,18 +46,18 @@ The results are displayed as per-class AUROC (Area under ROC curve), as well as 
 
 | Pathology  |   AUROC    | Sensitivity | PPV
 | :--------: | :--------: | :--------: | :--------: |
-| Normal Lung  | 0.972 | 0.744 | 0.989
-| Bacterial Pneumonia | 0.969 | 0.995 | 0.868
-| COVID-19 | 0.995 | 1.000 | 0.968
+| Normal Lung  | 0.972 | 0.722 | 0.989
+| Bacterial Pneumonia | 0.969 | 0.997 | 0.854
+| COVID-19 | 0.995 | 1.000 | 0.933
 
 </td><td>
 
 | Pathology  |   AUROC    | Sensitivity | PPV
 | :--------: | :--------: | :--------: | :--------: |
-| Normal Lung  | 0.979 | 0.761 | 0.989
-| Bacterial Pneumonia | 0.974 | 0.961 | 0.881
-| Viral Pneumonia | 0.861 | 0.872 | 0.721
-| COVID-19 | 0.997 | 1.000 | 0.938
+| Normal Lung  | 0.979 | 0.513 | 1.000
+| Bacterial Pneumonia | 0.991 | 0.961 | 0.741
+| Viral Pneumonia | 0.861 | 0.709 | 0.520
+| COVID-19 | 0.997 | 0.267 | 1.00
 
 </td></tr> 
 <tr>
