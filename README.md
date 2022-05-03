@@ -63,11 +63,11 @@ The results are displayed as per-class AUROC (Area under ROC curve), as well as 
 <td>ROC curve</td>
 <td>
 
-![ROC curve](./assets/roc_3.png "ROC curve")
+![ROC curve](./plots/ROC 3 class.png "ROC curve")
 
 </td><td>
 
-![ROC curve](./assets/roc_4.png "ROC curve")
+![ROC curve](./plots/roc_best.png "ROC curve")
 
 </td>
 </tr>
