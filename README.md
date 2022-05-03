@@ -97,13 +97,13 @@ Using RISE, the saliency  maps were generated for  our model’s  predictions to
 <tr>
 <td>
 
-![Original 1](./assets/visualizations/original_1.png "Original 1") 
+![Original 1](./plots/original_2.png "Original 1") 
 
 </td><td> 
 
 <tr><td> 
 
-![Visualization 1](./assets/visualizations/vis_1.png "Visualization 1") 
+![Visualization 1](./plots/vis_2.png "Visualization 1") 
 
 </td><td> 
 
