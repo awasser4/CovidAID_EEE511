@@ -75,11 +75,11 @@ The results are displayed as per-class AUROC (Area under ROC curve), as well as 
 <td>Confusion Matrix</td>
 <td>
 
-![Normalized Confusion Matrix](./assets/cm_3.png "Normalized Confusion Matrix")
+![Normalized Confusion Matrix](./plots/3class.png "Normalized Confusion Matrix")
 
 </td><td>
 
-![Confusion Matrix](./assets/cm_4.png "Confusion Matrix")
+![Confusion Matrix](./plots/cm_best.png "Confusion Matrix")
 
 </td>
 </tr>
