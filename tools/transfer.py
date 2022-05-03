@@ -1,6 +1,6 @@
 """
 Code to transfer weights from CheXNet (torch 1.0) to CovidAID
-""" 
+"""
 
 import sys
 from covidaid import CovidAID, CheXNet
