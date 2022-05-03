@@ -34,7 +34,7 @@ The [paper](http://arxiv.org/abs/2004.09803) contains a more detailed explanatio
 
 ## Results
 
-The results are displayed as per-class AUROC (Area under ROC curve), as well as confusion matrix formed by treating the most confident class prediction as the final prediction. We obtain an AUROC for Covid detection to be of `0.988` (4-class configuration) and `0.995` (3-class configuration).
+The results are displayed as per-class AUROC (Area under ROC curve), as well as confusion matrix formed by treating the most confident class prediction as the final prediction. We obtain an AUROC for Covid detection to be of `0.997` (4-class configuration) and `0.995` (3-class configuration).
 
 <center>
 <table>
