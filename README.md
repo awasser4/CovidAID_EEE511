@@ -91,7 +91,7 @@ The results are displayed as per-class AUROC (Area under ROC curve), as well as 
 </center>
 
 ## Visualizations
-Using RISE, the saliency  maps were generated for  our model’s  predictions to validate the predictions from the model.
+Using RISE, the saliency  maps were generated for  our model’s  predictions to validate the predictions from the model. The figures below show the visualisation of Covid-19 detection.
 <center>
 
 <table>
