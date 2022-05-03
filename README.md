@@ -1,5 +1,5 @@
 # CovidAID for Detection of COVID-19 from X-Ray Images
-This Github Repository was forked from the original authors, and changed where deemed necessary for the model to perform correctly. 
+This Github Repository was forked from the original authors, and changed where deemed necessary for the model to perform correctly. For example, the  transfer.py file was modified to allow for torch > 1.0 to be used. This is required to stay updated with the most recent version of the package, and proved to be a great challenge to implement. The changes can be seen in the history of the transfer.py, the original authors code was then modified to show the exact changes. 
 
 The emergence of the Covid-19 pandemic in 2020 took a toll on almost all individuals across the globe and is continuing to do so even today. With case load reaching as high as one million per day, the issues of test kit and hospital availability were encountered by all. 
 
